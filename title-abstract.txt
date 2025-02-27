@@ -1,5 +1,15 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Optimizing Training Cost for Scalable Graph Processing
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+The DE-HNN model is a state-of-the-art (SOTA) graph neural network model
+to predict congestion using circuit netlist representation, outperforming other
+hypergraph and netlist models in both node-based and net-based demand re-
+gression tasks. However, its high computational demands pose a significant
+barrier to practical deployment, limiting scalability and efficiency. To ad-
+dress this challenge, our research focuses on exploring strategies to optimize
+the training cost of DE-HNN, in terms of memory usage or training runtime
+while preserving prediction quality. We systematically tune hyperparame-
+ters and profile metrics to analyze the trade-offs between computational cost
+and accuracy, aiming to identify the optimal balance between efficiency and
+performance across various model configurations.
